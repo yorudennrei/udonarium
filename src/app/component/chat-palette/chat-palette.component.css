@@ -38,7 +38,7 @@
   outline: 0;
   font-size: 8px;
   background-color: transparent;
-  color: #444; 
+  color: #444;
   border: solid 1px #555;
   padding: 2px 8px;
   margin: 2px;
@@ -61,4 +61,23 @@
   position: absolute;
   top: -4px;
   right: 0;
+}
+
+.color-picker-container {
+  position: relative;
+  overflow: hidden;
+  width:16px;
+  height:16px;
+  border-radius: 16px;
+  float:left;
+  margin: 5px;
+}
+
+.color-picker-container > .color-picker {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  width: 32px;
+  height: 32px;
+  border: none;
 }
